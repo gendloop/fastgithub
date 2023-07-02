@@ -1,0 +1,35 @@
+{
+    "version": "1.0.0",
+    "description": "Gendloop's app",
+    "homepage": "https://github.com/gendloop/fastgithub",
+    "license": "LGPL-2.1-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gendloop/fastgithub/archive/refs/tags/v1.0.0.zip",
+            "hash": ""
+        }
+    },
+    "installer": {
+        "script": [
+            "Push-Location \"$dir\"",
+            "7z x fastgithub-$version\\dist\\fastgithub.7z",
+            "Remove-Item fastgithub-$version -Recurse",
+            "Pop-Location"
+        ]
+    },
+    "bin": "fastgithub.exe",
+    "shortcuts": [
+        [
+            "fastgithub.exe",
+            "fastgithub"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/gendloop/fastgithub/archive/refs/tags/v$version.zip"
+            }
+        }
+    }
+}
