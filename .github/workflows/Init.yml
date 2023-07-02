@@ -8,11 +8,12 @@ on:
   workflow_dispatch:
     
 jobs:
-
-
-  replace_str:
+  init:
     runs-on: ubuntu-latest
     steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
       - name: get-repo-name
         id: get-repo-name
         run: |
