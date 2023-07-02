@@ -17,11 +17,11 @@
             "Pop-Location"
         ]
     },
-    "bin": "fastgithub.exe",
+    "bin": "FastGithub.UI.exe",
     "shortcuts": [
         [
-            "fastgithub.exe",
-            "fastgithub"
+            "FastGithub.UI.exe",
+            "FastGithub"
         ]
     ],
     "checkver": "github",

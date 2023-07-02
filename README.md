@@ -2,5 +2,5 @@
 
 ## Install
 
-`scoop install gendloopBucket\fastgithub` 
+`scoop install gendloopBucket/fastgithub` 
 
