@@ -11,14 +11,11 @@ jobs:
   init:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@v3
-
       - name: get-repo-name
         id: get-repo-name
         run: |
           repo_name=${GITHUB_REPOSITORY#*/}
-          echo "reponame=$repo_name" >> "$GTIHUB_OUTPUT"
+          echo "reponame=$repo_name" >> "$GITHUB_OUTPUT"
         
       - name: replace-README
         uses: gendloop/replace-str@main
