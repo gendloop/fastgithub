@@ -1,5 +1,5 @@
 
 PROJECT_NAME=fastgithub
-fastgithub_VERSION_MAJOR=1
-fastgithub_VERSION_MINOR=0
-fastgithub_VERSION_PATCH=0
+fastgithub_VERSION_MAJOR=2
+fastgithub_VERSION_MINOR=1
+fastgithub_VERSION_PATCH=4
