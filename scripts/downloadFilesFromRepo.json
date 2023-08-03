@@ -35,6 +35,17 @@
             "branch": "main",
             "is_private": false,
             "token": ""
+        },
+        {
+            "files": [
+                "GitHubActions/FUNDING.yml"
+            ],
+            "local_dir": "../.github",
+            "user": "gendloop",
+            "repo": "Tools",
+            "branch": "main",
+            "is_private": false,
+            "token": ""
         }
     ]
 }
